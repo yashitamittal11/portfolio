@@ -18,15 +18,14 @@ const AbCard = () => {
           forward to do sky diving. 
         </p>
         <h3 style={{ paddingBottom: "20px", paddingTop: "20px" }}>
-          More about <strong className="purple">Nando </strong> 👀
+          More about <strong className="purple">me </strong> 
         </h3>
         <p style={{ textAlign: "justify" }}>
           My
           <span className="purple"> educational</span> background is rooted in
           <span className="purple"> Computer Science engineering</span>. I am working in support, 
           but I found myself drawn to technology and coding. So, I decided to
-          embark on the ultimate coding journey and the Developer Apprenticeship program
-          has been a huge help.
+          embark on the ultimate coding journey.
         </p>
       </blockquote>
     </Card.Body>
