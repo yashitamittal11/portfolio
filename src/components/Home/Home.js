@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import HomeDesc from './HomeDesc';
 import Type from "../Type";
-import code from "../../Assets/img-comp.jpg"
 
 const Home = () => {
   return (
