@@ -6,6 +6,7 @@ import issuetrack from "../../Assets/Projects/issue-tracker.png";
 import search from "../../Assets/Projects/reddit-search.png";
 import todo from "../../Assets/Projects/ToDo.png";
 import menu from "../../Assets/Projects/restaurant.png";
+import chatGPT from "../../Assets/Projects/chatGPT.png"
 
 const Projects = () => {
   return (
@@ -16,6 +17,16 @@ const Projects = () => {
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjCards
+              imgPath={chatGPT}
+              isBlog={false}
+              title="Create a clone of ChatGPT"
+              description="This is a clone of ChatGPT using the latest React JS and HTML and CSS. It is built on top of Node Javascript and Express"
+              ghLink="https://github.com/yashitamittal11/chatGPT/blob/main/README.md"
+             
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjCards
               imgPath={menu}
