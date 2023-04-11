@@ -8,6 +8,7 @@ import todo from "../../Assets/Projects/ToDo.png";
 import menu from "../../Assets/Projects/restaurant.png";
 import chatGPT from "../../Assets/Projects/chatGPT.png"
 import Lodash from "../../Assets/Projects/Lodash.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 
 const Projects = () => {
   return (
@@ -35,6 +36,16 @@ const Projects = () => {
               title="The path to deprecating Lodash"
               description="I am working on this mini project to remove the Lodash components from Calypso and replace it with the native JS code."
               
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjCards
+              imgPath={portfolio}
+              isBlog={false}
+              title="My portfolio app"
+              description="This is the portfolio app I made using React and Bootstrap."
+              ghLink="https://github.com/yashitamittal11/portfolio"
+              demoLink=""
             />
           </Col>
         <Col md={4} className="project-card">
