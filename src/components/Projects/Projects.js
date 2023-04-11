@@ -7,6 +7,7 @@ import search from "../../Assets/Projects/reddit-search.png";
 import todo from "../../Assets/Projects/ToDo.png";
 import menu from "../../Assets/Projects/restaurant.png";
 import chatGPT from "../../Assets/Projects/chatGPT.png"
+import Lodash from "../../Assets/Projects/Lodash.png";
 
 const Projects = () => {
   return (
@@ -25,6 +26,15 @@ const Projects = () => {
               description="This is a clone of ChatGPT using the latest React JS and HTML and CSS. It is built on top of Node Javascript and Express"
               ghLink="https://github.com/yashitamittal11/chatGPT/blob/main/README.md"
              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjCards
+              imgPath={Lodash}
+              isBlog={false}
+              title="The path to deprecating Lodash"
+              description="I am working on this mini project to remove the Lodash components from Calypso and replace it with the native JS code."
+              
             />
           </Col>
         <Col md={4} className="project-card">
