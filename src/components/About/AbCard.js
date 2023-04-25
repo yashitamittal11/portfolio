@@ -6,27 +6,23 @@ const AbCard = () => {
     <Card className="quote-card-view">
     <Card.Body>
       <blockquote className="blockquote mb-0">
-        <p style={{ textAlign: "justify" }}>
-          I am <span className="purple">Yashita </span> from 
-          <span className="purple"> Delhi, India  </span>
-          happily working as a Happiness Engineer since 
-          <span className="purple"> 2019 </span>.
-          <br />
-          <br />
-          I like to travel around the world and explore different places.
-          I enjoy thrilling activites like canoeing, scuba diving and I am looking
-          forward to do sky diving. 
-        </p>
+        <div style={{ textAlign: "justify" }}>
+          <p>My name is Yashita, and I hail from Delhi, India. Since 2019, I've been 
+            happily working as a <strong>Happiness Engineer</strong>.</p>
+
+          <p>Travelling the world and exploring different places brings me great joy. 
+            I have a taste for thrilling activities, including <strong>canoeing</strong> and 
+            <strong> scuba diving</strong>, and I'm looking forward to experiencing 
+            <strong> skydiving</strong>.</p>
+        </div>
         <h3 style={{ paddingBottom: "20px", paddingTop: "20px" }}>
-          More about <strong className="purple">me </strong> 
+        A Little More About <strong className="purple">Me </strong> 
         </h3>
-        <p style={{ textAlign: "justify" }}>
-          My
-          <span className="purple"> educational</span> background is rooted in
-          <span className="purple"> Computer Science engineering</span>. I am working in support, 
-          but I found myself drawn to technology and coding. So, I decided to
-          embark on the ultimate coding journey.
-        </p>
+        <div style={{ textAlign: "justify" }}>
+        <p>My educational background lies in <strong>Computer Science Engineering</strong>. 
+        Although I began my career in support, I've always been intrigued by technology and coding. 
+        Consequently, I decided to embark on an exciting coding journey to expand my horizons.</p>
+        </div>
       </blockquote>
     </Card.Body>
   </Card>

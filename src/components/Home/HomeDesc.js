@@ -8,31 +8,23 @@ const HomeDesc = () => {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <p className="home-about-body">
-              I aim to be a <b>Frontend developer. </b>
-              Passionate about learning and development with a result-driven mentality.
-              <br />
-              <br />
-              As a Happiness Engineer, I go the extra mile to ensure the customer 
-              is unquestionably satisfied with our services. My goal is to apply my newly
-              developed skills in {" "}
-              <b>Javascript, React.js, Css, Git, HTML</b> and
-              create scalable and well documented code. Though I may not be fully fluent, I approach my
-              work with a relaxed and natural style, always striving for
-              excellence.
-              <br />
-              <br />
-              When I'm not working, I like spending time with my family &nbsp;
-              <i>
-                <b> playing games in arcade or traveling </b> and visitng my friends in 
-                differnt parts of the world.
-              </i>
-              <br />
-              <br />I love to contribute to projects to help improve them and improve my 
-              skills in the process.
-              &nbsp; Currently, I am working on a project to remove the <b>Lodash functionality from Calypso</b>
-              and replace it with the native JS code.
-            </p>
+            <div className="home-about-body">
+              <p>I aspire to be a <strong>Frontend Developer</strong> with a passion 
+              for learning and a results-driven mentality.</p>
+
+              <p>As a Happiness Engineer, I continually go the extra mile to ensure customers
+                 are fully satisfied with our services. My objective is to apply my newly-acquired
+                  skills in <strong>JavaScript, React, Redux, CSS, Git, and HTML</strong> to create scalable
+                   and well-documented code. While I may not yet be completely fluent, 
+                   I approach my work with a laid-back yet dedicated style, always striving for excellence.</p>
+
+              <p>Outside of work, I enjoy spending time with my family, <em><strong>engaging in arcade games
+                 or traveling</strong></em>, and visiting friends in different parts of the world.</p>
+
+              <p>Contributing to projects that help improve them is a keen interest of mine, 
+                as it also hones my skills in the process. Currently, I am working on a project to replace 
+                <strong> Lodash functionality in Calypso</strong> with native JS code.</p>
+            </div>
           </Col>
           <Col md={4} className="myAvtar">
               <img src={ comp } className="img-fluid" alt="avatar" />

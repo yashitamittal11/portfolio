@@ -36,7 +36,7 @@ const Projects = () => {
               imgPath={chatGPT}
               isBlog={false}
               title="Create a clone of ChatGPT"
-              description="This is a clone of ChatGPT using the latest React JS and HTML and CSS. It is built on top of Node Javascript and Express"
+              description="This is a clone of ChatGPT using the latest React JS, HTML and CSS. It is built on top of Node Javascript and Express."
               ghLink="https://github.com/yashitamittal11/chatGPT/blob/main/README.md"
              
             />
@@ -47,6 +47,7 @@ const Projects = () => {
               isBlog={false}
               title="The path to deprecating Lodash"
               description="I am working on this mini project to remove the Lodash components from Calypso and replace it with the native JS code."
+              ghLink = "https://github.com/Automattic/wp-calypso"
               demoLink="https://mydevjourney22.wordpress.com/2023/03/10/remove-loads-from-wp-calypso-project/"
             />
           </Col>
