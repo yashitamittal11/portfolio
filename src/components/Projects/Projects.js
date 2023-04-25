@@ -9,6 +9,7 @@ import menu from "../../Assets/Projects/restaurant.png";
 import chatGPT from "../../Assets/Projects/chatGPT.png"
 import Lodash from "../../Assets/Projects/Lodash.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import voting from "../../Assets/Projects/voteapp.png";
 
 const Projects = () => {
   return (
@@ -19,6 +20,17 @@ const Projects = () => {
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjCards
+              imgPath={voting}
+              isBlog={false}
+              title = "A voting app"
+              description="This is a simple app for voting on activities. Users can vote and see the top 3 activities based on the number of votes received."
+              ghLink="https://github.com/yashitamittal11/votingApp"
+              demoLink="https://mydevjourney22.wordpress.com/2023/04/22/create-a-voting-app/"
+             
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjCards
               imgPath={chatGPT}
@@ -35,7 +47,7 @@ const Projects = () => {
               isBlog={false}
               title="The path to deprecating Lodash"
               description="I am working on this mini project to remove the Lodash components from Calypso and replace it with the native JS code."
-              
+              demoLink="https://mydevjourney22.wordpress.com/2023/03/10/remove-loads-from-wp-calypso-project/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -43,7 +55,7 @@ const Projects = () => {
               imgPath={portfolio}
               isBlog={false}
               title="My portfolio app"
-              description="This is the portfolio app I made using React and Bootstrap."
+              description="This is this portfolio app I made using React and Bootstrap."
               ghLink="https://github.com/yashitamittal11/portfolio"
               demoLink=""
             />
@@ -54,8 +66,8 @@ const Projects = () => {
               isBlog={false}
               title="Create a restaurant menu"
               description="This is a part of the project we are working on in our learning circle."
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/yashitamittal11/restaurant-menu"
+            
             />
           </Col>
           <Col md={4} className="project-card">
@@ -64,7 +76,6 @@ const Projects = () => {
               isBlog={false}
               title="Highlight HEs on Planner page"
               description="Script to highlight the HEs based on their chat preference."
-              ghLink=""
               demoLink="https://mydevjourney22.wordpress.com/2022/08/29/highlight-hes-based-on-their-chat-preference/"
             />
           </Col>
