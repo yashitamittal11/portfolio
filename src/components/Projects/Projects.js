@@ -38,6 +38,7 @@ const Projects = () => {
               title="Create a clone of ChatGPT"
               description="This is a clone of ChatGPT using the latest React JS, HTML and CSS. It is built on top of Node Javascript and Express."
               ghLink="https://github.com/yashitamittal11/chatGPT/blob/main/README.md"
+              demoLink="https://mydevjourney22.wordpress.com/2023/04/08/create-a-clone-of-chatgpt/"
              
             />
           </Col>
